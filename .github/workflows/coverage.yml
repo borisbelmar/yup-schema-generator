@@ -6,6 +6,7 @@ on:
       - develop
 jobs:
   coverage:
+    runs-on: alpine-latest
     steps:
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v3

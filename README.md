@@ -1,5 +1,8 @@
 # Yup Schema Generator
 
+[![codecov](https://codecov.io/gh/borisbelmar/yup-schema-generator/branch/main/graph/badge.svg?token=7G8O21M6C3)](https://codecov.io/gh/borisbelmar/yup-schema-generator)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Generate Yup schemas from JSON Schema.
 
 ## Installation

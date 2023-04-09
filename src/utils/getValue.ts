@@ -1,11 +1,11 @@
 import type { ValidationObject, ValidationValue } from '@/@types'
 
 const KEYS = ['value', 'ref', 'errorMessage', 'condition']
-const isValidationValueObj = <T>(validationValue: ValidationValue<T>) => {
-  return Object.keys(validationValue).some(key => (
+const isValidationValueObj = <T>(validationValue: ValidationValue<T>) => Object
+  .keys(validationValue)
+  .some(key => (
     KEYS.includes(key)
   ))
-}
 
 const getValue = <T>(
   validation: ValidationObject,

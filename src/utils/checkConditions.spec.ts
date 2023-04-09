@@ -1,5 +1,5 @@
-import checkConditions from './checkConditions'
 import { Condition } from '@/@types'
+import checkConditions from './checkConditions'
 import mockTestContext from '../__mocks__/testContext.mock'
 
 describe('checkConditions', () => {

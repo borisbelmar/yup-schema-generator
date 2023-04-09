@@ -1,5 +1,5 @@
-import groupConditions from './groupConditions'
 import { Condition } from '@/@types'
+import groupConditions from './groupConditions'
 
 describe('groupConditions', () => {
   it('should handle a mix of conditions with and without operators', () => {

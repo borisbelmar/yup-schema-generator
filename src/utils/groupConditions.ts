@@ -1,7 +1,6 @@
 import { Condition } from '@/@types'
 
-const groupConditions = (conditions: Condition[]) => {
-  return conditions.reduce<{
+const groupConditions = (conditions: Condition[]) => conditions.reduce<{
     ands: Condition[]
     ors: Condition[]
   }>((acc, curr) => {
@@ -10,6 +9,5 @@ const groupConditions = (conditions: Condition[]) => {
     }
     return { ands: acc.ands, ors: [...acc.ors, curr] }
   }, { ands: [], ors: [] })
-}
 
 export default groupConditions

@@ -1,6 +1,6 @@
 {
   "name": "@borisbelmar/yup-schema-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a Yup schema from a JSON object",
   "scripts": {
     "build": "tsup ./src/index.ts --format esm,cjs --dts --minify",

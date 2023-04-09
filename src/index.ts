@@ -38,7 +38,7 @@ const yupSchemaGenerator = (toValidate: Record<string, ValidationObjectWithType>
   return schema
 }
 
-export { default as checkConditions } from '@/utils/checkConditions'
+export { default as checkConditions } from './utils/checkConditions'
 
 export {
   yupSchemaGenerator,

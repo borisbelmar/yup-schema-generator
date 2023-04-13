@@ -2,6 +2,7 @@
 
 [![codecov](https://codecov.io/gh/borisbelmar/yup-schema-generator/branch/main/graph/badge.svg?token=7G8O21M6C3)](https://codecov.io/gh/borisbelmar/yup-schema-generator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![install size](https://packagephobia.com/badge?p=@borisbelmar/yup-schema-generator)](https://packagephobia.com/result?p=@borisbelmar/yup-schema-generator)
 
 Generate Yup schemas from JSON Schema.
 

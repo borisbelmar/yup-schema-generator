@@ -1,6 +1,6 @@
 {
   "name": "@borisbelmar/yup-schema-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate a Yup schema from a JSON object",
   "publishConfig": {
     "access": "public"

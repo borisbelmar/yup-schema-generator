@@ -1,6 +1,6 @@
 {
   "name": "@borisbelmar/yup-schema-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate a Yup schema from a JSON object",
   "scripts": {
     "build": "tsup ./src/index.ts --format esm,cjs --dts --minify",
@@ -18,6 +18,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borisbelmar/yup-schema-generator.git"
+  },
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
